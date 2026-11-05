@@ -1,11 +1,12 @@
 # rabit e2e fixtures
 
 Git fixtures for rabit's end-to-end CI job tests (`com.rabit.integration.cijob.triggerbuild` in rabit).
+SFDX (source-format) fixtures live in `rabit-e2e-sfdx-fixtures`, which rabit registers as SFDX-enabled.
 Each branch is one fixture; tests point at it through `application-it.yaml` (`IT_GIT_BRANCH` and friends).
 
 | Branch | Layout | Used by |
 |---|---|---|
-| `vc2sf-metadata` | Metadata format at the repository root: `classes/` + `package.xml` | `Vc2SfStartBuildET` |
+| `vc2sf-metadata` | Metadata format at the repository root: `classes/` + `package.xml` | `Vc2SfStartBuildET`, `VcPackageStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
