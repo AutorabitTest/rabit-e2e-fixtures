@@ -6,5 +6,9 @@
         <members>RabitE2EClassC</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>RabitE2EPermissionSet</members>
+        <name>PermissionSet</name>
+    </types>
     <version>62.0</version>
 </Package>
