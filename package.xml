@@ -4,6 +4,7 @@
         <members>RabitE2EClassA</members>
         <members>RabitE2EClassB</members>
         <members>RabitE2EClassC</members>
+        <members>RabitE2EClassE</members>
         <name>ApexClass</name>
     </types>
     <version>62.0</version>
