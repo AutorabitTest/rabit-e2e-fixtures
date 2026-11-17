@@ -10,5 +10,9 @@
         <members>RabitE2EPermissionSet</members>
         <name>PermissionSet</name>
     </types>
+    <types>
+        <members>RabitE2EProfile</members>
+        <name>Profile</name>
+    </types>
     <version>62.0</version>
 </Package>
