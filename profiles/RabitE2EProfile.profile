@@ -4,6 +4,10 @@
         <apexClass>RabitE2EClassA</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>RabitE2EPhantomClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>true</custom>
     <description>Fixture for rabit's e2e tests.</description>
     <loginIpRanges>
